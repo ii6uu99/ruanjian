@@ -6,8 +6,7 @@ set url=git@github.com:ii6uu99/ruanjian.git
 if exist .git (
 git add .
 git commit -m "Auto Update"
-:: origin master
-git pull
+git pull origin master
 
 ) else (
 
