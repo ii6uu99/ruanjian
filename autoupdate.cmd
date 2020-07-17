@@ -1,5 +1,7 @@
 @echo off
 git config --global core.autocrlf false
+git config --global user.name "ii6uu99"
+git config --global user.email "ii6uu99@163.com"
 for /F "delims=?" %%i in ("%cd%") do set folder=%%~nxi
 set url=git@github.com:ii6uu99/ruanjian.git
 
