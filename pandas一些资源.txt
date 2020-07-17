@@ -1,0 +1,65 @@
+https://github.wuyanzheshui.workers.dev/kamidox/stock-data
+
+熊猫熊猫（Книгапо熊猫）：https ://jakevdp.github.io/PythonDataScienceHandbook/
+
+熊猫熊猫：https ://tomaugspurger.github.io/modern-1-intro
+
+熊猫熊猫：https：//pandas.pydata.org/pandas-docs/stable/getting_started/tutorials.html
+
+
+git clone https://github.com/glemaitre/pyparis-2018-sklearn.git
+
+要检查您的系统是否具有必需的库，可以执行以下脚本：
+
+python check_environment.py
+如果您使用conda，则可以使用以下命令为本教程创建特定的环境：
+conda env create environment.yml
+conda activate pyparis_sklearn  #或源激活pyparis_sklearn
+
+
+
+常规的conda频道中可能不存在cartopy软件包，因此要安装它，请尝试使用该conda-forge频道：
+
+$ conda install -c conda-forge cartopy
+
+
+
+推荐站点是
+https://pandas.pydata.org/pandas-docs/stable/tutorials.html
+https://matplotlib.org/users/pyplot_tutorial.html
+
+
+伦敦帝国学院在Coursera提供的在线课程“ Tensorflow 2入门”的所有每周作业。
+
+https://github.wuyanzheshui.workers.dev/Bumblebee2397/Getting-started-with-Tensorflow-2
+
+
+
+可帮助我学习熊猫数据分析的材料：
+官方文档-https://pandas.pydata.org/pandas-docs/stable/getting_started/tutorials.html
+
+书籍：用于数据分析的Python：使用Pandas，NumPy和IPython进行数据处理（Wes McKinney） https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1491957662
+
+视频教程：Keith Galli- https : //www.youtube.com/channel/UCq6XkhO5SZ66N04IcPbqNcw Corey Schafer- https://www.youtube.com/user/schafer5 数据学校-https : //www.youtube.com/user/数据学校
+
+
+
+
+环境条件
+。Danakon环境是多环境的。都是D。这是虚拟环境的名称。
+(base) git clone https://github.com/mssung94/intel-basic-tutorial.git
+(base) cd intel-basic-tutorial
+(base) conda create -n env36 python=3.6
+(base) conda activate env36
+(keras) pip install -r requirements.txt
+(keras) jupyter notebook .
+
+最好在默认环境中更新所有软件包。打开Anaconda Prompt应用程序。在提示符下，运行以下命令：
+conda upgrade conda
+conda upgrade --all
+
+
+
+一键升级所有choco包
+ choco upgrade all -y
+

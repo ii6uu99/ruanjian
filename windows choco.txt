@@ -1,0 +1,4 @@
+windows choco
+https://hub.docker.com/search?q=windows%20choco&type=image
+https://hub.docker.com/r/stefanscherer/chocolatey
+https://hub.docker.com/r/patrickhuber/choco-linux

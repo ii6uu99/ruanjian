@@ -1,0 +1,156 @@
+https://hub.fastgit.org/gzr2017/ImageProcessing100Wen
+
+首先
+打开终端，输入以下指令。使用这个命令，你可以将整个目录完整地克隆到你的计算机上。
+
+$ git clone https://github.com/yoyoyo-yo/Gasyori100knock.git
+然后，选择你喜欢的 Python 或者 C++，阅读下一部分——Tutorial！
+
+Tutorial
+内容	Python	C++	JavaScript
+1	安装	✓	✓	
+2	读取、显示图像	✓	✓	
+3	操作像素	✓	✓	
+4	拷贝图像	✓	✓	
+5	保存图像	✓	✓	
+6	练习问题	✓	✓	
+Matplotlib和OpenCV的Tips
+
+请在这之后解答提出的问题。问题内容分别包含在各个文件夹中。请使用示例图片assets/imori.jpg。在各个文件夹中的README.md里有问题和解答。运行答案，请使用以下指令（自行替换文件夹和文件名）：
+
+python answers/answer_@@.py
+问题
+详细的问题请参见各页面下的README文件（各个页面下滑就可以看见）。
+
+为了简化答案，所以没有编写main()函数。
+虽然我们的答案以numpy为基础，但是还请你自己查找numpy的基本使用方法。
+问题1 - 10
+序号	问题	Python	C++	翻译一校
+1	通道替换	✓	✓	✓
+2	灰度化（Grayscale）	✓	✓	✓
+3	二值化（Thresholding）	✓	✓	✓
+4	大津二值化算法（Otsu's Method）	✓	✓	✓
+5	$\text{HSV}$变换	✓	✓	✓
+6	减色处理	✓	✓	✓
+7	平均池化（Average Pooling）	✓	✓	✓
+8	最大池化（Max Pooling）	✓	✓	✓
+9	高斯滤波（Gaussian Filter）	✓	✓	✓
+10	中值滤波（Median Filter）	✓	✓	✓
+问题11 - 20
+序号	内容	Python	C++	翻译一校
+11	均值滤波器	✓	✓	✓
+12	Motion Filter	✓	✓	✓
+13	MAX-MIN滤波器	✓	✓	✓
+14	差分滤波器（Differential Filter）	✓	✓	✓
+15	Sobel滤波器	✓	✓	✓
+16	Prewitt滤波器	✓	✓	✓
+17	Laplacian滤波器	✓	✓	✓
+18	Emboss滤波器	✓	✓	✓
+19	LoG滤波器	✓	✓	✓
+20	直方图	✓		✓
+问题21-30
+序号	内容	Python	C++	翻译一校
+21	直方图归一化（Histogram Normalization）	✓	✓	
+22	直方图操作	✓	✓	
+23	直方图均衡化（Histogram Equalization）	✓	✓	
+24	伽玛校正（Gamma Correction）	✓	✓	
+25	最邻近插值（Nearest-neighbor Interpolation）	✓	✓	
+26	双线性插值（Bilinear Interpolation）	✓	✓	
+27	双三次插值（Bicubic Interpolation）	✓	✓	
+28	仿射变换（Afine Transformations）——平行移动	✓	✓	
+29	仿射变换（Afine Transformations）——放大缩小	✓	✓	
+30	仿射变换（ Afine Transformations ）——旋转	✓	✓	
+问题31-40
+序号	内容	Python	C++	翻译一校
+31	仿射变换（Afine Transformations）——倾斜	✓	✓	
+32	傅立叶变换（Fourier Transform）	✓	✓	
+33	傅立叶变换——低通滤波	✓	✓	
+34	傅立叶变换——高通滤波	✓	✓	
+35	傅立叶变换——带通滤波	✓	✓	
+36	JPEG 压缩——第一步：离散余弦变换（Discrete Cosine Transformation）	✓	✓	
+37	峰值信噪比（Peak Signal to Noise Ratio）	✓	✓	
+38	JPEG 压缩——第二步：离散余弦变换+量化	✓	✓	
+39	JPEG 压缩——第三步：YCbCr 色彩空间	✓	✓	
+40	JPEG 压缩——第四步：YCbCr+DCT+量化	✓	✓	
+问题41-50
+序号	内容	Python	C++	翻译一校
+41	Canny边缘检测：第一步——边缘强度	✓	✓	
+42	Canny边缘检测：第二步——边缘细化	✓	✓	
+43	Canny边缘检测：第三步——滞后阈值	✓	✓	
+44	霍夫变换（Hough Transform）／直线检测——第一步：霍夫变换	✓	✓	
+45	霍夫变换（Hough Transform）／直线检测——第二步：NMS	✓	✓	
+46	霍夫变换（Hough Transform）／直线检测——第三步：霍夫逆变换	✓	✓	
+47	形态学处理：膨胀（Dilate）	✓	✓	
+48	形态学处理：腐蚀（Erode）	✓	✓	
+49	开运算（Opening Operation）	✓	✓	
+50	闭运算（Closing Operation）	✓	✓	
+问题51-60
+序号	内容	Python	C++	翻译一校
+51	形态学梯度（Morphology Gradient）	✓		
+52	顶帽（Top Hat）	✓		
+53	黑帽（Black Hat）	✓		
+54	使用误差平方和算法（Sum of Squared Difference）进行模式匹配（Template Matching）	✓		
+55	使用绝对值差和（Sum of Absolute Differences）进行模式匹配	✓		
+56	使用归一化交叉相关（Normalization Cross Correlation）进行模式匹配	✓		
+57	使用零均值归一化交叉相关（Zero-mean Normalization Cross Correlation）进行模式匹配	✓		
+58	$4-$邻域连通域标记	✓		
+59	$8-$邻域连通域标记	✓		
+60	透明混合（Alpha Blending）	✓		
+问题61-70
+序号	内容	Python	C++	翻译一校
+61	$4-$连接数	✓		
+62	$8-$连接数	✓		
+63	细化处理	✓		
+64	Hilditch 细化算法			
+65	Zhang-Suen 细化算法	✓		
+66	方向梯度直方图（HOG）第一步：梯度幅值・梯度方向	✓		
+67	方向梯度直方图（HOG）第二步：梯度直方图	✓		
+68	方向梯度直方图（HOG）第三步：直方图归一化	✓		
+69	方向梯度直方图（HOG）第四步：可视化特征量	✓		
+70	色彩追踪（Color Tracking）	✓		
+问题71-80
+序号	内容	Python	C++	翻译一校
+71	掩膜（Masking）	✓		
+72	掩膜（色彩追踪（Color Tracking）+形态学处理）	✓		
+73	缩小和放大	✓		
+74	使用差分金字塔提取高频成分	✓		
+75	高斯金字塔（Gaussian Pyramid）	✓		
+76	显著图（Saliency Map）	✓		
+77	Gabor 滤波器（Gabor Filter）	✓		
+78	旋转 Gabor 滤波器	✓		
+79	使用 Gabor 滤波器进行边缘检测	✓		
+80	使用 Gabor 滤波器进行特征提取	✓		
+问题81-90
+序号	内容	Python	C++	翻译一校
+81	Hessian 角点检测	✓		
+82	Harris 角点检测第一步：Sobel + Gausian	✓		
+83	Harris 角点检测第二步：角点检测	✓		
+84	简单图像识别第一步：减色化+直方图	✓		
+85	简单图像识别第二步：判别类别	✓		
+86	简单图像识别第三步：评估	✓		
+87	简单图像识别第四步：k-NN	✓		
+88	k-平均聚类算法（k -means Clustering）第一步：生成质心	✓		
+89	k-平均聚类算法（k -means Clustering）第二步：聚类	✓		
+90	k-平均聚类算法（k -means Clustering）第三步：调整初期类别	✓		
+问题91-100
+序号	内容	Python	C++	翻译一校
+91	利用 k-平均聚类算法进行减色处理第一步：按颜色距离分类	✓		
+92	利用 k-平均聚类算法进行减色处理第二步：减色处理	✓		
+93	准备机器学习的训练数据第一步：计算 IoU	✓		
+94	准备机器学习的训练数据第一步：随机裁剪（Random Cropping）	✓		
+95	神经网络（Neural Network）第一步：深度学习（Deep Learning）	✓		
+96	神经网络（Neural Network）第二步：训练	✓		
+97	简单物体检测第一步----滑动窗口（Sliding Window）+HOG	✓		
+98	简单物体检测第二步----滑动窗口（Sliding Window）+ NN	✓		
+99	简单物体检测第三步----非极大值抑制（Non-Maximum Suppression）	✓		
+100	简单物体检测第三步----评估 Precision, Recall, F-score, mAP	✓		
+TODO
+adaptivebinalizatino, poison image blending
+
+Citation
+@article{yoyoyo-yoGasyori100knock,
+    Author = {yoyoyo-yo},
+    Title = {Gasyori100knock},
+    Journal = {https://github.com/yoyoyo-yo/Gasyori100knock},
+    Year = {2019}
+}
