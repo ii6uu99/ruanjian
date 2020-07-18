@@ -1,0 +1,8 @@
+Github镜像网站访问 v1.1.1 油猴脚本 下载速度太慢提速
+
+http://qianfangzy.com/44820.html
+
+成功添加Tampermonkey插件后，复制以下链接在浏览器打开，点击“安装此脚本”。
+
+https://greasyfork.org/zh-CN/scripts/398278
+
